@@ -8,7 +8,7 @@ public class Main {
         Church v4 = new Church("Westminster");
         Church v5 = new Church("Basilica");
         Restaurant v6 = new Restaurant("Vivo");
-        City map = new City();
+        Map map = new Map();
         map.addNode(v1);
         map.addNode(v2);
         map.addNode(v3);
