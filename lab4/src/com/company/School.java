@@ -5,6 +5,7 @@ public class School {
     private String name;
 
     public Set<School> schoolList = new TreeSet<>();
+    private Integer capacity;
 
     public School(String name) {
         this.name = name;
@@ -25,6 +26,9 @@ public class School {
             return 1;
         }
         return obj1.compareTo(obj2);
+    }
+    public void setCapacity(Integer capacity) {
+        this.capacity = capacity;
     }
 
     @Override
